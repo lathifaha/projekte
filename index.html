@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="Auer Weber">
+<meta name="description" content="Auer Weber">
+<meta name="date" content="2016-03-23">
+<link rel="canonical" href="http://www.auer-weber.de">
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="css/demo-slideshow.css">
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.event.move.js"></script>
+<script type="text/javascript" src="js/jquery.event.swipe.js"></script>
+<script type="text/javascript" src="js/jquery.cycle2.js"></script>
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
+
+<script type="text/javascript" src="scripts.js"></script>
+<script type="text/javascript" src="js/slip.js"></script>
+    
+<title>Auer Weber</title>
+</head>
+
+<style type="text/css">
+.slideshow-info {
+    color:#ffffff !important; padding-left:0 !important; width:300px; position:absolute; z-index:999; bottom: 120px; left:20px; background-color:rgba(0,0,0,0.5) !important;
+}    
+</style>
+
+<body>
+<div class="menu-wrap">
+    <div class="logo"></div>
+<img src="image/auer-white.png" class="default">
+<div class="burger-nav"></div>
+<div class='sidemenu'> <!-- General Container -->
+    
+    <div style='position:relative;'> <!-- Position set to relative, so the shadow-src top, left, right, bottom orientation relatively positioned to this container and not to 'main-banner'-->
+    <div class='shadow-src'></div>
+    
+    <div class='menu-item'></div>
+    <a href='#'><div class='menu-item active-menu-item'>Home</div></a>
+    <a href='#'><div class='menu-item'>Designs</div></a>
+    <a href='#'><div class='menu-item'>Projects</div></a>
+    <a href='#'><div class='menu-item'>People</div></a>
+    <a href='footer'><div class='menu-item'>Contact</div></a>
+    
+    <div class='inline-menu'>
+        <a href='#'><div class='inline-menu-item'>ID</div></a>
+        <a href='#'><div class='inline-menu-item active-menu-item'>JP</div></a>
+        <a href='#'><div class='inline-menu-item'>EN</div></a>
+    </div>
+    
+    <div class='search-item'>
+        <form id='search-form'>
+            <!-- Reversed position for search area due to float:right property-->
+            <div class='search-btn'><img src='image/Feedbin-Icon-home-search.svg.png'></div>
+            <div class='search-box'><input type='text' placeholder='Search it!'></div>
+        </form>
+    </div>
+    </div>
+</div>
+</div>
+<a href='#'><div id="main-banner" class="cycle-slideshow" 
+data-cycle-pager=".slideshow-nav" 
+data-cycle-pager-template="<span></span>" 
+data-cycle-overlay-template="<p>{{location}}</p><div></div><h3>{{caption}}</h3>">
+    <div class='cycle-overlay custom slideshow-info'>
+        <!-- Things inside here will be replaced by Cycle2. Unable to integrate slideshow nav here -->
+    </div>
+
+    <div class='slideshow-nav'>
+        <!-- Reserved for Cycle2 slideshow nav control. Putting it in the right place -->
+    </div>
+
+	<img class="image" src="image/joso/1.jpg" data-location="Azur" data-caption="Azur azur">
+    <img class="image" src="image/joso/2.jpg" data-location="Neue" data-caption="Neue neue">
+    <img class="image" src="image/joso/3.jpg" data-location="Ubahn" data-caption="Ubahn ubahn">
+</div></a>
+<main class="wrapper">
+<img src="image/auer-blue.png" class="moveable">
+<section id="thumb">
+    <div class="news">
+        <a class="" href="#"><img src="image/joso/2a-malam.jpg" alt="thumb"></a>
+        <div class="article">
+            <a class="title" href="#"><h2>Sudirman Superblock</h2></a>
+            <ul>
+                <li>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat.  
+                 
+                 Eodem
+                modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+                in futurum.</p>
+                </li>
+                <li>
+            <a class="more" href="#">More >></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="news">
+        <a class="" href="#"><img src="image/joso/4kecil.jpg" alt="thumb"></a>
+        <div class="article">    
+            <a class="title" href="#"><h2>Eroffnung des Allianz Campus Unterfohring</h2></a>
+            <ul>
+                <li>
+            <p>Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat.</p>
+                </li>
+            <li>
+            <a class="more" href="#">More >></a>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div class="news">
+        <a class="" href="#"><img src="image/joso/alternatif1a.jpg" alt="thumb"></a>
+    <div class="article">          
+            <a class="title" href="#"><h2>Anerkennung fur das ,,Kaufhaus Schocken" in Chemnitz</h2></a>
+        <ul>
+            <li>
+            <p>Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse molestie consequat,
+                vel illum dolore eu feugiat nulla facilisis at vero eros et
+                accumsan et iusto odio dignissim qui blandit praesent luptatum
+                zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+            </li>
+            <li>
+                <a class="more" href="#">More >></a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="news">
+        <a class="" href="#"><img src="image/joso/6.jpg" alt="thumb"></a>
+<div class="article">            
+            <a class="title" href="#"><h2>Arbeiten bei auer Weber</h2></a>  
+   <div class="arch">
+            <p>Nam liber tempor cum soluta nobis eleifend option congue
+                nihil imperdiet doming id quod mazim placerat facer possim
+                assum.</p>
+            <a class="more" href="#">More >></a>
+    </div>
+    <div >
+            <p>Typi non habent claritatem insitam; est usus legentis
+                in iis qui facit eorum claritatem. Investigationes
+                demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+            <a class="more" href="#">More >></a>
+    </div>
+</div>
+    </div>
+</section>
+<section id="profile">
+    <div id="brief">
+        <h2>,,Das Irritierende an den offentlichen Bauten von Auer Weber ist ihre Normalitat"</h2>
+        <p class="name">Mr. Lorem</p>
+        <p class="prof">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                consuetudium lectorum. Mirum est notare quam littera gothica,
+                quam nunc putamus parum claram, anteposuerit litterarum formas
+                humanitatis per seacula quarta decima et quinta decima.</p>
+        <a class="more" href="#">More >></a>
+    </div>
+    <div id="sum">
+        <h5>Standorte</h5>
+            <h3>2</h3>
+       <h5>Mitarbeiter</h5>
+            <h3>140</h3>
+        <h5>Auszeichnungen</h5>
+            <h3>80</h3>
+        <h5>Projekte</h5>
+            <h3>129</h3>
+    </div>
+</section>
+</main>
+<div class="top"><a class="last" href="#top">
+<img src="image/top.PNG">Top</a><br>
+</div>
+<footer id='footer'>
+    <div id="contact">
+    <div class="address">
+        <h4>Auer Weber</h4>
+        Haußmannstr. 103A<br>
+70188 Stuttgart<br>
+        t +49 711 268404 - 0<br>
+        f +49 711 268404 - 88<br>
+        <a class="emails" href="mailto:stuttgart@auer-weber.de">stuttgart@auer-weber.de</a>
+    </div>
+    <div class="address">
+        <h4>Auer Weber</h4>
+        Sandstraße 33<br>
+80335 München<br>
+        t +49 89 381617 - 0<br>
+        f +49 89 381617 - 38<br>
+        <a class="emails" href="mailto:muenchen@auer-weber.de" >muenchen@auer-weber.de</a>
+        </div>
+    </div>
+    <div id="sns">
+    <ul>
+        <li><a href=""><img src="image/m.png"></a></li>
+        <li><a href="#"><img src="image/f.png"></a></li>
+        <li><a href="#"><img src="image/t.png"></a></li>
+        <li>
+        <a href="#" class="last">Impressum >></a>
+        </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
